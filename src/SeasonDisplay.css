@@ -1,0 +1,35 @@
+.icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.icon-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*here we are reffering to the class 'season-display' along with 'winter' class (depending on season in <div> el.) and to 'i' elem. that is a child of the element with this class*/
+.season-display.winter i {
+  color: blue;
+}
+
+.season-display.summer i {
+  color: rgb(226, 19, 53);
+}
+
+.season-display {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winter {
+  background-color: aliceblue;
+}
+
+.summer {
+  background-color: orange;
+}
